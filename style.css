@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#003366, #001a33);
+  color: white;
+}
+
+/* HEADER */
+header {
+  background: #003399;
+  padding: 20px;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header .right-text {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  font-size: 16px;
+}
+
+/* NAVBAR */
+nav {
+  background: #0066cc;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 25%;
+  background: #0066cc;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* CONTENT */
+.content {
+  width: 75%;
+  margin-left: 20px;
+}
+
+/* WELCOME BOX */
+.welcome-box {
+  background: white;
+  color: black;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.welcome-box img {
+  width: 200px;
+}
+
+/* LATEST DEVELOPERS */
+.latest-box {
+  margin-top: 20px;
+  background: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.dev-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dev-list div {
+  width: 22%;
+  background: #e6f0ff;
+  padding: 10px;
+  border-radius: 8px;
+}
